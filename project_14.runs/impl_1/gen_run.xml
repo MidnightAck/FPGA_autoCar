@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1546743278">
+  <File Type="ROUTE-STATUS-PB" Name="carMove_route_status.pb"/>
+  <File Type="PA-TCL" Name="carMove.tcl"/>
+  <File Type="OPT-DCP" Name="carMove_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="carMove_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="carMove_methodology_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="carMove.vdi"/>
+  <File Type="PWROPT-DRC" Name="carMove_drc_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="carMove_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="carMove_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="carMove.hwdef"/>
+  <File Type="OPT-TIMING" Name="carMove_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="carMove_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="carMove_placed.dcp"/>
+  <File Type="PLACE-IO" Name="carMove_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="carMove_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="carMove_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="carMove_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="carMove_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="carMove_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="carMove_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="carMove_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="carMove_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="carMove_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="carMove_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="carMove_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="carMove_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="carMove_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="carMove_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="carMove_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="carMove_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="carMove_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="carMove_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="carMove.bit"/>
+  <File Type="ROUTE-PWR" Name="carMove_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="carMove_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="carMove_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="carMove_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="carMove_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="carMove_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="carMove_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="carMove_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="carMove_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="carMove_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="carMove_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="carMove_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="carMove_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="carMove_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="carMove.bin"/>
+  <File Type="BITSTR-MSK" Name="carMove.msk"/>
+  <File Type="BITSTR-RBT" Name="carMove.rbt"/>
+  <File Type="BITSTR-NKY" Name="carMove.nky"/>
+  <File Type="BITSTR-BMM" Name="carMove_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="carMove.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="carMove.sysdef"/>
+  <File Type="BG-BGN" Name="carMove.bgn"/>
+  <File Type="BG-DRC" Name="carMove.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/seg_num_060.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sel_det_060.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divclk_060.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/det.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/process_060.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CarC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/binbcd8.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/speed_060.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="carMove"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/CarC.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream" PreStepTclHook="E:/demo/FGPA/pree.tcl"/>
+  </Strategy>
+</GenRun>

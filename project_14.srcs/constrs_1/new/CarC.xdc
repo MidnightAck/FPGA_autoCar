@@ -1,0 +1,40 @@
+set_property PACKAGE_PIN E3 [get_ports CLK]
+set_property PACKAGE_PIN H4 [get_ports IN1]
+set_property PACKAGE_PIN H1 [get_ports IN2]
+set_property PACKAGE_PIN G1 [get_ports IN3]
+set_property PACKAGE_PIN G3 [get_ports IN4]
+set_property PACKAGE_PIN F6 [get_ports iS2]
+set_property PACKAGE_PIN L16 [get_ports key1]
+set_property PACKAGE_PIN M13 [get_ports key2]
+set_property PACKAGE_PIN R15 [get_ports key3]
+set_property PACKAGE_PIN V10 [get_ports StepEnable]
+
+set_property PACKAGE_PIN M18 [get_ports hwx]
+
+set_property PACKAGE_PIN K1 [get_ports iS1]
+
+
+set_property PACKAGE_PIN P18 [get_ports down]
+set_property PACKAGE_PIN P17 [get_ports left]
+set_property PACKAGE_PIN M17 [get_ports right]
+set_property PACKAGE_PIN N17 [get_ports up]
+
+set_property PACKAGE_PIN C17 [get_ports I_O_sda]
+
+set_property PACKAGE_PIN U13 [get_ports {O_sel_060[0]}]
+set_property PACKAGE_PIN K2 [get_ports {O_sel_060[1]}]
+set_property PACKAGE_PIN T14 [get_ports {O_sel_060[2]}]
+set_property PACKAGE_PIN P14 [get_ports {O_sel_060[3]}]
+set_property PACKAGE_PIN J14 [get_ports {O_sel_060[4]}]
+set_property PACKAGE_PIN T9 [get_ports {O_sel_060[5]}]
+set_property PACKAGE_PIN J18 [get_ports {O_sel_060[6]}]
+set_property PACKAGE_PIN J17 [get_ports {O_sel_060[7]}]
+
+set_property PACKAGE_PIN T10 [get_ports {O_seg_060[0]}]
+set_property PACKAGE_PIN R10 [get_ports {O_seg_060[1]}]
+set_property PACKAGE_PIN K16 [get_ports {O_seg_060[2]}]
+set_property PACKAGE_PIN K13 [get_ports {O_seg_060[3]}]
+set_property PACKAGE_PIN P15 [get_ports {O_seg_060[4]}]
+set_property PACKAGE_PIN T11 [get_ports {O_seg_060[5]}]
+set_property PACKAGE_PIN L18 [get_ports {O_seg_060[6]}]
+set_property PACKAGE_PIN H15 [get_ports {O_seg_060[7]}]

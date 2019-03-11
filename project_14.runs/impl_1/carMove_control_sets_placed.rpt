@@ -1,0 +1,64 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Jan 06 10:55:49 2019
+| Host         : LAPTOP-BJCPTVPH running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file carMove_control_sets_placed.rpt
+| Design       : carMove
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    23 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              54 |           20 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             100 |           27 |
+| Yes          | No                    | No                     |              32 |           11 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              55 |           20 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+---------------------------------+----------------------------------------+------------------+----------------+
+|              Clock Signal              |          Enable Signal          |            Set/Reset Signal            | Slice Load Count | Bel Load Count |
++----------------------------------------+---------------------------------+----------------------------------------+------------------+----------------+
+|  Divider1/CLK                          |                                 |                                        |                1 |              1 |
+|  Divider1/CLK                          |                                 | pwm1/clear                             |                1 |              4 |
+|  pro/u_sel/num_temp_060_reg[3]_i_2_n_0 |                                 |                                        |                2 |              4 |
+|  pro/divclk_060/CLK                    |                                 |                                        |                3 |              8 |
+|  CLK_IBUF_BUFG                         | pro/det/sda_dly_cnt[15]_i_1_n_0 | pro/det/sda_reg[39]_i_1_n_0            |                4 |             16 |
+|  CLK_IBUF_BUFG                         |                                 | pro/det/clk_cnt__0                     |                9 |             32 |
+|  CLK_IBUF_BUFG                         |                                 | pro/det/sda_high[31]_i_1_n_0           |                9 |             32 |
+|  CLK_IBUF_BUFG                         |                                 | pro/divclk_060/inclkcnt_060[0]_i_1_n_0 |                8 |             32 |
+|  CLK_IBUF_BUFG                         | pro/det/sda_reg[39]_i_1_n_0     |                                        |               11 |             32 |
+|  CLK_IBUF_BUFG                         | pro/det/sda_reg[39]_i_2_n_0     | pro/det/sda_reg[39]_i_1_n_0            |               16 |             39 |
+|  CLK_IBUF_BUFG                         |                                 |                                        |               14 |             41 |
++----------------------------------------+---------------------------------+----------------------------------------+------------------+----------------+
+
+
